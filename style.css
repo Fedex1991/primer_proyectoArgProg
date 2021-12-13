@@ -1,0 +1,66 @@
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	backround:#000000;
+	color: #ffffff;
+	background-color: #003061;
+    background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23010a1d' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-size: 16px;
+	font-family: 'Inconsolata', monospace;
+}
+a{
+	color:#ffffff;
+	text-decoration: none;
+	
+
+}
+ul{
+	list-style: none;
+}
+.container{
+	width: 90%;
+	margin: auto;
+
+}
+/* estilo de navegacion*/
+.nav-main{
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	padding: 20px 0;
+
+}
+.nav-brand {
+ 	width: 50px;
+ }
+ /* navegador parte izquierda*/
+ .nav-main ul {
+ 	display: flex;
+
+ }
+.nav-main ul li{
+	padding: 10px;
+
+ }
+ .nav-main ul li {
+ 	border-bottom: 2px;
+
+ }
+ .nav-main ul.nav-menu{
+ 	flex: 1;
+ 	margin-left: 20px;
+ }
+
+ /* portada*/
+ .portada {
+  width: 100%;
+  height: 280px;
+  background: url('./img/portada.jpg') no-repeat center center/cover;
+  padding-bottom: 50px;
+  
+ }
